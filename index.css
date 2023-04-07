@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background:#FDFDFD;
+	direction: rtl;
+	font-family: alkatip basma tom;
+}
+.conteiner{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.bax_tizimlik{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+}
+.logo{
+	width: 150px;
+	height: 50px;
+	background:white;
+	float: right;
+}
+.logo img{
+	width: 150px;
+	height: 50px;
+}
+.turlar{
+	width: 700px;
+	height: 50px;
+	float:left;
+}
+.turlar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.turlar ul li{
+	float: right;
+	width: 120px;
+	height: 50px;
+	margin-left: 20px;
+	line-height: 50px;
+	text-align: center;
+}
+.turlar ul a{
+	color: #1C1C1C;
+}
+.turlar ul a:hover{
+	color: #00CFFF;
+}
+.tizimlitix{
+	width: 150px;
+	height: 50px;
+	float: left;
+}
+.tizimlitix ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 7px;
+}
+.tizimlitix ul li{
+	width: 73px;
+	height: 30px;
+	background:#FF0004;
+	float: right;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 2px;
+	border-radius: 8px;
+	color: #FFFFFF;
+}
+/*  banner*/
+.banner{
+	width: 100%;
+	height: 300px;
+	background: #FF0004;
+	margin-top: 10px;
+}
+.banner img{
+	width: 100%;
+	height: 300px;
+}
+.kino{
+	width: 100%;
+	float: right;
+	margin-top: 15px;
+}
+.kino_title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.kino_title a{
+	text-decoration:none;
+	color: #1C1C1C;
+}.kino_title a:hover{
+	color: #00CFFF;
+}
+/*.title_balga{
+	width: 5px;
+	height: 30px;
+	background: #009BFF;
+	float: right;
+	margin-right: 5px;
+	margin-left: 5px;
+}*/
+.kino_isim{
+	width: 247px;
+	height: 20px;
+	margin-top: -30px;
+	text-align: center;
+	color: aliceblue;
+}
+.kinolar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.kinolar{
+	margin-top: 10px;
+}
+.kinolar ul li img{
+	width: 247px;
+	height: 150px;
+}
+.kinolar ul li{
+	width: 247px;
+	height: 150px;
+	background: red;
+	float: right;
+	margin-left: 3px;
+}
+.barlik_kinolar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.barlik_kinolar{
+	margin-top: 10px;
+}
+.barlik_kinolar ul li{
+	width: 197px;
+	height: 150px;
+	background: red;
+	float: right;
+	margin-left: 3px;
+}
+.barlik_kinolar ul li img{
+	width: 197px;
+	height: 150px;
+}
