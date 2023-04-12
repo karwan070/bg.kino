@@ -1,1 +1,0 @@
-funcstion lke (rl){}
